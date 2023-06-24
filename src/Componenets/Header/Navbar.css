@@ -1,0 +1,32 @@
+.header{
+    background: #fefffe;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    font-size: 75% !important;
+}
+.header-in{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    color: black;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto 0;
+    align-items: center;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.left{
+    font-weight: 900;
+}

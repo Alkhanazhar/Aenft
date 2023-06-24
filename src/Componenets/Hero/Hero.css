@@ -1,0 +1,28 @@
+.hero{
+    background-color: black !important;
+    margin-bottom: 0 !important;
+}
+.hero-in{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.fonthead{
+    font-size: 64px;
+    color: white;
+    font-weight: 600;
+}
+.left{
+    display: flex;
+        flex-direction: column;
+        padding: 3rem 0;
+}
+.hero-in h2{
+    color: white;
+}
+.hero-img{
+    width: 80%;
+    height: 80%;
+}

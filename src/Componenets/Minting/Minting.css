@@ -1,0 +1,51 @@
+.color-gradient{
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(108.18deg, rgb(234, 76, 137) -12.02%, rgb(77, 68, 198) 60%);
+    -webkit-background-clip: text;
+    position: relative;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.color-gradient::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 2px;
+    height: 13px;
+    width: 4px;
+    background: linear-gradient(108.18deg, rgb(234, 76, 137) -2.02%, rgb(77, 68, 198));
+
+}
+.minting{
+    background: #f5f6f8;
+}
+.card2{
+    position: relative;
+    background: linear-gradient(90deg, rgb(255, 255, 255) 47.8%, rgba(255, 255, 255, 0.22) 75.6%);
+    overflow: hidden;
+    border: 1px solid rgb(234, 234, 234);
+    padding: 20px 50px 20px 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.height50{
+    height: 50px;
+}
+.row-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: .5rem;
+
+}
+.emoji{
+    font-size: 1.6rem;
+    transition: .3s ease-in-out;
+}
+.emoji:hover{
+    transform: scale(1.25);
+}
+.height30{
+    height: 30px;
+}
