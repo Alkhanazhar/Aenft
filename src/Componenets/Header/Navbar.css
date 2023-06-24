@@ -15,6 +15,9 @@
     margin: auto;
     color: black;
 }
+.left{
+    font-weight: 900;
+}
 .right{
     display: flex;
     flex-direction: row;

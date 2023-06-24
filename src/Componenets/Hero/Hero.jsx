@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import hero from "./hero.svg"
+import hero2 from "./hero-coin.png"
 
 const Hero = () => {
   return (
@@ -18,7 +19,9 @@ const Hero = () => {
 
           </div>
           <div className="right">
-            <div><img src={hero} alt="" className="hero-img" width="100px"/ ></div>
+            <div><img src={hero} alt="" className="hero-img" width="100px"/ >
+              <img src={hero2} alt="" className="spin" />
+            </div>
           </div>
         </div>
       </div>

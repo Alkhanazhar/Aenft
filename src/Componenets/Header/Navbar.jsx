@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="container">
         <div className="header-in">
           <div className="left">
-            <h2 className="left">Logo</h2>
+            <h2 className="left">AENFT</h2>
           </div>
           <div className="center">
             <ul>

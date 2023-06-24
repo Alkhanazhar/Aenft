@@ -26,3 +26,19 @@
     width: 80%;
     height: 80%;
 }
+.right{
+    position: relative;
+}
+.spin{
+    width: 20px;
+    position: absolute;
+    top: -4rem;
+    right: -10rem;
+    scale: 0.2;
+    animation: spins 7s linear 0s infinite normal;
+
+}
+@keyframes spins {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
